@@ -1,5 +1,6 @@
 //Given an integer array nums, rotate the array to the right by k steps,
 //  where k is non-negative.
+import java.util.*;
 class Solution {
     public void rotate(int[] nums, int k) {
         Scanner sc = new Scanner(System.in);
@@ -14,5 +15,7 @@ class Solution {
            nums[i] = arr[i];
         }
         System.out.println(arr);
+        sc.close();
     }
 }
+    
